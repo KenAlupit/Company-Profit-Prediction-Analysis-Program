@@ -1,4 +1,4 @@
-# Company-Profit-Prediction-Analysis-Program
+# Company Profit Prediction Analysis Program
 The Company Profit Prediction Analysis program utilizes a linear regression model to forecast company profits from expenditures in R&D, administration, and marketing. It begins by importing a dataset containing financial data of 1000 companies, including categorical variables like states, which are preprocessed using encoding techniques. Visualizations such as heatmaps illustrate correlations among variables.
 
 The program splits the dataset into training and test sets, trains a linear regression model to predict profits, and evaluates its performance using R-squared values for both training and test data. Users interact by inputting expenses, which are then used to estimate profits based on the model's coefficients and intercept.
